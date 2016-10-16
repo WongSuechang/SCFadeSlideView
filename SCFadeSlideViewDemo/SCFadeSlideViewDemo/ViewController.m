@@ -34,7 +34,7 @@
     /****************************
      使用导航控制器(UINavigationController)
      如果控制器中不存在UIScrollView或者继承自UIScrollView的UI控件
-     请使用UIScrollView作为NewPagedFlowView的容器View,才会显示正常,如下
+     请使用UIScrollView作为SCFadeSlideView的容器View,才会显示正常,如下
      *****************************/
     
     //    UIScrollView *bottomScrollView = [[UIScrollView alloc] initWithFrame:self.view.bounds];

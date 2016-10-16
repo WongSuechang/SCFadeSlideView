@@ -519,13 +519,13 @@
                     
                     [scrollView setContentOffset:CGPointMake(_pageSize.height * self.orginPageCount, 0) animated:NO];
                     
-//                    self.page = self.orginPageCount;
+                    self.page = self.orginPageCount;
                     
                 }
                 
                 if (scrollView.contentOffset.y / _pageSize.height <= self.orginPageCount - 1) {
                     [scrollView setContentOffset:CGPointMake((2 * self.orginPageCount - 1) * _pageSize.height, 0) animated:NO];
-//                    self.page = 2 * self.orginPageCount;
+                    self.page = 2 * self.orginPageCount;
                 }
                 
             }
