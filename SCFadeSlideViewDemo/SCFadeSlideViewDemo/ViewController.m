@@ -28,7 +28,7 @@
     slideView.minimumPageAlpha = 0.4;
     slideView.minimumPageScale = 0.85;
     
-    slideView.orginPageCount = 4;
+    slideView.orginPageCount = 1;
     slideView.orientation = SCFadeSlideViewOrientationHorizontal;
     
     /****************************
@@ -59,7 +59,7 @@
 
 #pragma mark - SCFadeSlideView datasource
 - (NSInteger)numberOfPagesInSlideView:(SCFadeSlideView *)slideView {
-    return 4;
+    return 1;
 }
 
 - (UIView *)slideView:(SCFadeSlideView *)slideView cellForPageAtIndex:(NSInteger)index {
